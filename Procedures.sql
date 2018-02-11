@@ -1,0 +1,4 @@
+﻿USE SPCentral
+
+-- snapshots
+
