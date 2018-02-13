@@ -1,4 +1,5 @@
 ﻿using StorageBin.Core.Repository;
+using StorageBin.Core.Types;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,24 +13,24 @@ namespace StorageBinService
     {
         private BatchRepository batchRepository = new BatchRepository();
 
-        public string Add(string batchBarcode, string binBarcode)
+        public Result Add(string batchBarcode, string binBarcode)
         {
-            return "not implemented";
+            return new Result();
         }
 
-        public string Remove(string batchBarcode)
+        public Result Remove(string batchBarcode)
         {
-            return "not implemented";
+            return new Result();
         }
 
-        public string ReturnToStock(string batchBarcode)
+        public Result ReturnToStock(string batchBarcode)
         {
-            return "not implemented";
+            return new Result();
         }
 
-        public string Bins()
+        public Result Bins()
         {
-            return "not implemented";
+            return new Result();
         }
     }
 }

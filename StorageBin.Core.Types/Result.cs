@@ -6,6 +6,11 @@ namespace StorageBin.Core.Types
 {
     public class Result
     {
+        public Result ()
+        {
+            this.ResultCode = ResultCode.Success;
+        }
+
         public ResultCode ResultCode { get; set; }
     }
 }

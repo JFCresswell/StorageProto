@@ -64,6 +64,10 @@
       <Project>{2307cf3b-b345-4014-acbe-885643008b1c}</Project>
       <Name>StorageBin.Core.Repository</Name>
     </ProjectReference>
+    <ProjectReference Include="..\StorageBin.Core.Types\StorageBin.Core.Types.csproj">
+      <Project>{51e429a0-039a-4291-b3ea-9dd40f28d30a}</Project>
+      <Name>StorageBin.Core.Types</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

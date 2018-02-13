@@ -1,4 +1,5 @@
-﻿using System;
+﻿using StorageBin.Core.Types;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.ServiceModel;
@@ -11,15 +12,15 @@ namespace StorageBinService
     public interface IStorageBinService
     {
         [OperationContract]
-        string Add(string batchBarcode, string binBarcode);
+        Result Add(string batchBarcode, string binBarcode);
 
         [OperationContract]
-        string Remove(string batchBarcode);
+        Result Remove(string batchBarcode);
 
         [OperationContract]
-        string ReturnToStock(string batchBarcode);
+        Result ReturnToStock(string batchBarcode);
 
         [OperationContract]
-        string Bins();
+        Result Bins();
     }
 }
