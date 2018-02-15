@@ -5,8 +5,8 @@ using System.Text;
 
 namespace StorageBin.Core.Types
 {
-    public class BinsResult : Result
+    public class BinResult
     {
-        public List<Bin> Bins { get; set; }
+        public Bin Bin { get; set; }
     }
 }

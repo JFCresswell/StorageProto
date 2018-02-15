@@ -28,9 +28,14 @@ namespace StorageBinService
             return new Result();
         }
 
-        public Result Bins()
+        public BinResult Bin(string binBarcode)
         {
-            return new Result();
+            return new BinResult();
+        }
+
+        public BinsResult Bins()
+        {
+            return new BinsResult();
         }
     }
 }

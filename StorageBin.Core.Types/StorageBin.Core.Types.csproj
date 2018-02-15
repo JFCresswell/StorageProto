@@ -4,4 +4,8 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\StorageBin.Core.Models\StorageBin.Core.Models.csproj" />
+  </ItemGroup>
+
 </Project>

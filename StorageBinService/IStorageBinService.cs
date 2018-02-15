@@ -21,6 +21,9 @@ namespace StorageBinService
         Result ReturnToStock(string batchBarcode);
 
         [OperationContract]
-        Result Bins();
+        BinResult Bin(string binBarcode);
+
+        [OperationContract]
+        BinsResult Bins();
     }
 }
